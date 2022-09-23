@@ -65,6 +65,7 @@ body{
 
 .about-sub{
     color: #8d99ae;
+    font-weight: 300;
 }
 
 .profile-image{
@@ -102,51 +103,44 @@ body{
     position: relative;
 }
 
--------------------------- */
 
 /* -------------- experiences page -------------- */
-.experiences-page{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/images/back1.jpg);
-    /* background-color: rgb(0, 0, 0,0.5); */
+.exp-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/back1.jpg);
     background-size: cover;
-    min-height: 170vh;
+    min-height: 200vh;
     height: 100%;
-    padding: 2%;
 }
 
-.exp-subhead {
-    padding-top: 3%;
-    margin-left: 30px;
-    font-size: 2em;
+.sub-subhead{
     font-weight: 300;
-    border-bottom: 1px solid #fff;
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
-.exp-name{
-    color: #ef233c;
-    font-size: 1.5em;
-    font-weight: 400;
+.exp-contain, .exp-contain-wex{
+    margin-top: 3%;
+    margin-left: 20%;
 }
 
-.exp-sub{
-    font-size: 1.3em;
+.exp-sec{
+    margin: 0 2%;
+}
+
+.exp-title{
     font-weight: 600;
-    color: #FF3131;
-
-}
-
-.exp-row {
-    margin-top: 2%;
+    font-size: 1.6em;
 }
 
 .exp-date{
-    font-size: 0.85em;
-    font-weight: 600;
+    font-size: 1em;
+    color: #ffbf69;
 }
 
-.exp-description{
-    color: white;
-    font-size: 1em;
+.exp-position{
+    font-size: 20px;
+    color: #ffbf69;
+    padding-bottom: 0 10px;
 }
 /* ---------------------------- */
 
@@ -163,6 +157,7 @@ body{
     }
 
     .page-header, .page-header-ab{
+        font-weight: 300;
         font-size: 60px;
         text-align: center;
     }
@@ -201,3 +196,4 @@ body{
     }
 
 }
+

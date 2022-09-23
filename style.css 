@@ -105,9 +105,10 @@ body{
 -------------------------- */
 
 /* -------------- experiences page -------------- */
-#experiences{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url();
+.experiences-page {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(); */
     /* background-color: rgb(0, 0, 0,0.5); */
+    background-image: url(/images/back1.jpg);
     background-size: cover;
     min-height: 170vh;
     height: 100%;

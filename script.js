@@ -1,109 +1,93 @@
 
-const educationContainer = document.querySelector('.edu-contain')
-const workContainer = document.querySelector('.work-contain')
-
-
-
-const educations = [
-    {
-        title: 'Fitzwilliam College, University of Cambridge',
-        position: 'Land Economy BSc Undergraduate',
-        date: '2022 - 2025',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
-    },
-    {
-        title: 'St Bonaventures Sixth Form',
-        position: 'A Level',
-        date: '2020 - 2022',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
-    },
-    {
-        title: 'St Bonaventures Secondary School',
-        position: 'GCSE',
-        date: '2015 - 2020',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
-    }
-]
+// selectors
+const eduContainer = document.querySelector('.exp-contain')
+const wexContainer = document.querySelector(".exp-contain-wex")
+//
 
 const workExps = [
     {
         title: 'Wiser Academy',
         position: 'Brand Ambassador',
         date: 'Aug 2022 - Present',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
+        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
     },
     {
         title: 'Wiser',
         position: 'Research Intern',
         date: 'Jul 2022',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
+        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
     },
     {
         title: 'Permira',
         position: 'Private Equity Intern',
         date: 'Jul 2022',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
+        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
     },
     {
         title: 'IKEA',
         position: 'Sales Assistant',
         date: '2020 - 2022',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolore vero error, amet vel iusto velit officiis maiores obcaecati! Eos tempore excepturi architecto iste numquam temporibus modi repudiandae consequatur quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rerum asperiores officia nihil.'
+        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
     }
 ]
 
+const educations = [
+  {
+      title: "University of Cambridge",
+      position: "Undergrad - Land Economy BSc",
+      date: '2022 - 2025',
+      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem."
+  },
+  {
+      title: "St Bonaventure's Sixth Form",
+      position: 'A Level',
+      date: '2020 - 2022',
+      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem."
+  },
+  {
+      title: "St Bonaventure's Secondary School",
+      position: 'GCSE',
+      date: '2015 - 2020',
+      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem."
+  }
+]
 
+const experienceComponent = function (education, workExps) {
+  eduContainer.innerHTML = ' '
+  education.forEach(function (edu) {
+    htmlEdu = `
+    <div class="row">
+    <div class="exp-sec col-lg-2">
+      <h2 class="exp-title">${edu.title}</h2>
+      <h4 class="exp-date">${edu.date}</h4>
+    </div>
+    <div class="exp-sec col-lg-4">
+      <div class="exp-position">${edu.position}</div>
+      <p class="exp-info">${edu.info}</p>
+    </div>
+  </div>
+    `
+    eduContainer.insertAdjacentHTML('beforeend', htmlEdu)
+  })
 
+  workExps.forEach(function (wex) {
+    htmlCareer = `
+    <div class="row">
+    <div class="exp-sec col-lg-2">
+      <h2 class="exp-title">${wex.title}</h2>
+      <h4 class="exp-date">${wex.date}</h4>
+    </div>
+    <div class="exp-sec col-lg-4">
+      <div class="exp-position">${wex.position}</div>
+      <p class="exp-info">${wex.info}</p>
+    </div>
+  </div>
+    `
+    wexContainer.insertAdjacentHTML('beforeend', htmlCareer)
 
+  })
 
-
-// components
-const eduComponent = function(educations) {
-    educationContainer.innerHTML = ''
-    educations.forEach(function (exp, i) {
-        html = `
-        <div class="exp-row row">
-        <div class="headers col-lg-4">
-          <h2 class="exp-name">
-            ${exp.title}
-          </h2>
-
-          <h4 class="exp-date">${exp.date}</h4>
-        </div>
-        <div class="exp-description col-xs-4 col-lg-6">
-          <h3 class="exp-sub">${exp.position}</h3>
-          ${exp.info}
-        </div>
-      </div>
-      `
-    educationContainer.insertAdjacentHTML("beforeend",html)
-    })
 }
 
-const workComponent = function (workExps) {
-    workContainer.innerHTML = ''
-    workExps.forEach(function (exp) {
-        html = `
-        <div class="exp-row row">
-        <div class="headers col-lg-4">
-          <h2 class="exp-name">
-            ${exp.title}
-          </h2>
+experienceComponent(educations, workExps)
 
-          <h4 class="exp-date">${exp.date}</h4>
-        </div>
-        <div class="exp-description col-lg-6">
-          <h3 class="exp-sub">${exp.position}</h3>
-          ${exp.info}
-        </div>
-      </div>
-      `
-        workContainer.insertAdjacentHTML("beforeend", html)
-    })
-}
-
-eduComponent(educations)
-workComponent(workExps)
-
-
-// col-lg-8 d-none d-md-block
