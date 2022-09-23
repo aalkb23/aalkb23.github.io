@@ -1,0 +1,39 @@
+/* -------------- experiences page -------------- */
+.exp-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/back1.jpg);
+    background-size: cover;
+    min-height: 200vh;
+    height: 100%;
+}
+
+.sub-subhead{
+    font-weight: 300;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.exp-contain, .exp-contain-wex{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.exp-sec{
+    margin: 0 2%;
+}
+
+.exp-title{
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+.exp-date{
+    font-size: 1em;
+    color: #ffbf69;
+}
+
+.exp-position{
+    font-size: 20px;
+    color: #ffbf69;
+    padding-bottom: 0 10px;
+}
+/* ---------------------------- */

@@ -49,102 +49,6 @@ body{
 }
 
 
-/* -------------- about page -------------- */
-
-.about-page{
-    background-color: #000;
-    height: 85vh;
-}
-
-.about-sec{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-}
-
-.about-sub{
-    color: #8d99ae;
-    font-weight: 300;
-}
-
-.profile-image{
-     width: 250px; height: 250px;
-    background-image: url(/images/profilepic.png);
-    background-position: center;
-    border-radius: 50%;
-    border: 10px solid #8d99ae;
-
-}
-
-.detail {
-    color: #ffbf69;
-    font-weight: 700;
-}
-
-
-.ab-subhead{
-    color: #d9d9d9;
-    text-align: center;
-    font-size: 20px;
-    padding: 2%;
-    font-weight: 300;
-}
-.details-container{
-    line-height: 10px;
-    font-size: 20px;
-}
-
-.quick-btn{
-    width: 100%;
-}
-
-.quick-link{
-    position: relative;
-}
-
-
-/* -------------- experiences page -------------- */
-.exp-page{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/back1.jpg);
-    background-size: cover;
-    min-height: 200vh;
-    height: 100%;
-}
-
-.sub-subhead{
-    font-weight: 300;
-    margin-left: 20%;
-    margin-top: 5%;
-}
-
-.exp-contain, .exp-contain-wex{
-    margin-top: 3%;
-    margin-left: 20%;
-}
-
-.exp-sec{
-    margin: 0 2%;
-}
-
-.exp-title{
-    font-weight: 600;
-    font-size: 1.6em;
-}
-
-.exp-date{
-    font-size: 1em;
-    color: #ffbf69;
-}
-
-.exp-position{
-    font-size: 20px;
-    color: #ffbf69;
-    padding-bottom: 0 10px;
-}
-/* ---------------------------- */
-
-
 
 @media screen and (min-width: 600px) {
     #title{
@@ -174,12 +78,14 @@ body{
 
     .page{
         width: 100vw;
-        height: 100vh;
+        min- height: 100vh;
+        height: 100%;
     }
 
     
 
 }
+
 @media screen and (max-width: 600px) {
     .exp-date{
         display: none;
