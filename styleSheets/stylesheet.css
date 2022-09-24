@@ -6,6 +6,13 @@
     color: white;
 }
 
+.dropdown{
+    position: fixed;
+}
+
+
+
+
 body{
     background-color: black;
 }
@@ -48,8 +55,6 @@ body{
     font-size: 32px;
 }
 
-
-
 @media screen and (min-width: 600px) {
     #title{
         color: white;
@@ -78,7 +83,7 @@ body{
 
     .page{
         width: 100vw;
-        min- height: 100vh;
+        min-height: 100vh;
         height: 100%;
     }
 

@@ -14,7 +14,7 @@ const workExps = [
     {
         title: 'Wiser',
         position: 'Research Intern',
-        date: 'Jul 2022',
+        date: "Aug 2022",
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
     },
     {

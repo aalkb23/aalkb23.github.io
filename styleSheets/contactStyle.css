@@ -1,11 +1,59 @@
 
 /* -------------- contact page -------------- */
 #contact-page{
-    background-color: #8d99ae;
+    background-color: #000;
+    height: 50vh;
 }
 
 .pls{
     font-size: 0.2em;
 }
 
+
+.contact-header{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 1%;
+}
+
+.social-container{
+    border: 1px solid #ffbf69;
+    border-radius: 1em;
+    padding: 0.6em;
+    width: 100%;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.social-container a, .social-container{
+    color: #ffbf69;
+    text-decoration: none;
+}
+
+.social-container:hover{
+    border: 1px solid white;
+}
+
+.social-container:hover > .contact-link{
+    color: white;
+}
+
+
+.logo{
+    padding: 2%;
+}
+
+.contact-quote{
+    text-align: center;
+    font-weight: 200;
+    color: #ffbf69;
+    margin-bottom: 2%;
+    font-size: 1.4em;
+}
+
+.contact-name{
+    font-weight: 200;
+    text-align: center;
+}
 /* ---------------------------- */
