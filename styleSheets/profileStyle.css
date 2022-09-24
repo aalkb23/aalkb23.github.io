@@ -21,6 +21,7 @@
 .profile-image{
     width: 250px; height: 250px;
     background-image: url(/images/profilepic.png);
+    background-size: cover;
     background-position: center;
     border-radius: 50%;
     border: 10px solid #8d99ae;
@@ -30,6 +31,7 @@
 .detail {
     color: #ffbf69;
     font-weight: 700;
+    padding: 10px;
 }
 
 

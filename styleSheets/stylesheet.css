@@ -91,6 +91,8 @@ body{
 
 }
 
+/* small screen */
+
 @media screen and (max-width: 600px) {
     .exp-date{
         display: none;
@@ -100,11 +102,27 @@ body{
     }
     .profile-image{
         margin: 0 auto;
+        border: 1px solid #8d99ae ;
     }
 
     .about-page{
         height: 100%;
     }
+
+    .about-sec{
+        text-align: center;
+    }
+
+    .details-container > .detail{
+        font-weight: 300;
+    }
+
+    .detail{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    
 
 }
 
