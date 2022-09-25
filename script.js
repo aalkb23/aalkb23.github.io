@@ -2,6 +2,7 @@
 // selectors
 const eduContainer = document.querySelector('.exp-contain')
 const wexContainer = document.querySelector(".exp-contain-wex")
+const skillContainer = document.querySelector(".rating-contain")
 //
 
 const workExps = [
@@ -52,6 +53,37 @@ const educations = [
   }
 ]
 
+const ratings = [
+  {
+    skill: 'HTML',
+    rating: 'four'
+  },
+  {
+    skill: 'CSS',
+    rating: 'four'
+  },
+  {
+    skill: 'JavaScript',
+    rating: 'three'
+  },
+  {
+    skill: 'Excel / Sheets',
+    rating: 'three'
+  },
+  {
+    skill: 'Communication',
+    rating: 'four'
+  },
+  {
+    skill: 'Teamwork',
+    rating: 'five'
+  },
+  {
+    skill: 'Flexibility',
+    rating: 'four'
+  }
+]
+
 const experienceComponent = function (education, workExps) {
   eduContainer.innerHTML = ' '
   education.forEach(function (edu) {
@@ -89,5 +121,19 @@ const experienceComponent = function (education, workExps) {
 
 }
 
+function skillsComponent(rating) {
+  skillContainer.innerHTML = ''
+  rating.forEach(function (skill) { 
+    html = `
+    <h4 class="rating">
+      ${skill.skill}
+      <img class="star-img" src="/images/${skill.rating}-star.png" alt="">
+    </h4>
+    `
+    skillContainer.insertAdjacentHTML('beforeend',html)
+  })
+}
+
 experienceComponent(educations, workExps)
+skillsComponent(ratings)
 

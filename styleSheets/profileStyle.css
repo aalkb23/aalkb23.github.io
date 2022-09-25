@@ -3,21 +3,23 @@
 
 .about-page{
     background-color: #000;
-    background-image: linear-gradient(rgba(0,0,0,0.527), rgb(0,0,0,0.5)), url(/images/bulb.avif);
+    background-image: linear-gradient(rgba(0,0,0), rgb(0,0,0,0.5)), url(/images/clouds.avif);
     background-size:cover;
     height: 85vh;
 }
 
+.test-bg{
+    background-color: yellow;
+}
+
 .about-sec{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
+    margin-top: 5%;
 }
 
 .about-sub{
     color: #8d99ae;
     font-weight: 300;
+    /* text-align: center; */
 }
 
 .profile-image{
@@ -27,13 +29,15 @@
     background-position: center;
     border-radius: 50%;
     border: 10px solid #8d99ae;
+    margin: 0;
+
 
 }
 
 .detail {
     color: #ffbf69;
     font-weight: 700;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 
@@ -44,8 +48,13 @@
     padding: 2%;
     font-weight: 300;
 }
-.details-container{
-    line-height: 10px;
+.star-img{
+    width: 5em;
+    float: right;
+    margin-right: 15%;
+}
+
+.rating{
     font-size: 20px;
 }
 
@@ -55,4 +64,19 @@
 
 .quick-link{
     position: relative;
+}
+
+.rating{
+    text-align: left;
+    margin-left: 10%;
+    transition: all 200ms ease-in;
+}
+
+.rating:hover{
+    padding: 3px;
+    font-size: 23px;
+}
+
+.pic-contain{
+    padding: auto;
 }
