@@ -3,7 +3,7 @@
 
 .about-page{
     background-color: #000;
-    background-image: linear-gradient(rgba(0,0,0), rgb(0,0,0,0.5)), url(/images/clouds.avif);
+    background-image: linear-gradient(rgba(0,0,0.5), rgb(0,0,0,0.6),rgba(0,0,0)), url(/images/clouds.avif);
     background-size:cover;
     height: 85vh;
 }

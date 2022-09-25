@@ -1,6 +1,6 @@
 /* -------------- experiences page -------------- */
 .exp-page{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/back1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0),rgba(0, 0, 0, 0.527),rgba(0,0,0)) , url(/images/back1.jpg);
     background-size: cover;
     min-height: 200vh;
     height: 100%;

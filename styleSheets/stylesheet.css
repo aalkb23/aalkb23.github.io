@@ -24,7 +24,7 @@ body{
 }
 
 .title-page{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/back1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0,0.5),rgb(0,0,0)) , url(/images/back1.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,6 +121,11 @@ body{
     .detail{
         padding-left: 2px;
         padding-right: 2px;
+    }
+
+    .pagedivider{
+        width: 100%;
+        color: royalblue;
     }
 
     /* .about-page{

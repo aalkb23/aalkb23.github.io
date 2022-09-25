@@ -1,6 +1,6 @@
 #contact-page{
     background-color: #000;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/rocks.avif);
+    background-image: linear-gradient(rgb(0,0,0),rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/rocks.avif);
     height: 50vh;
 }
 
@@ -55,3 +55,4 @@
     font-weight: 200;
     text-align: center;
 }
+
