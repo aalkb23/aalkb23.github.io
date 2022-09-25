@@ -3,6 +3,8 @@
 
 .about-page{
     background-color: #000;
+    background-image: linear-gradient(rgba(0,0,0,0.527), rgb(0,0,0,0.5)), url(/images/bulb.avif);
+    background-size:cover;
     height: 85vh;
 }
 
@@ -19,7 +21,7 @@
 }
 
 .profile-image{
-    width: 250px; height: 250px;
+    width: 20rem; height: 20rem;
     background-image: url(/images/profilepic.png);
     background-size: cover;
     background-position: center;

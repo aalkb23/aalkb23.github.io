@@ -1,5 +1,6 @@
 #contact-page{
     background-color: #000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/rocks.avif);
     height: 50vh;
 }
 

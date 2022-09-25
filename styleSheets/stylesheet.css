@@ -1,9 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
 
 * {
     margin: 0;
     box-sizing: border-box;
     color: white;
+    /* font-family: 'Nunito', sans-serif; */
 }
 
 .dropdown{
@@ -55,7 +56,7 @@ body{
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
     #title{
         color: white;
         font-size: 100px;
@@ -78,7 +79,7 @@ body{
 
     .profile-image{
         border-radius: 50%;
-        width: 350px; height: 350px;
+        width: 400px; height: 400px;
     }
 
     .page{
@@ -93,7 +94,7 @@ body{
 
 /* small screen */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .exp-date{
         display: none;
     }
@@ -122,7 +123,9 @@ body{
         padding-right: 2px;
     }
 
-    
+
+
+
 
 }
 
