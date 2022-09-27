@@ -110,7 +110,7 @@ const experienceComponent = function (education, workExps) {
       <h4 class="exp-date">${wex.date}</h4>
     </div>
     <div class="exp-sec col-lg-4">
-      <div class="exp-position">${wex.position}</div>
+      <div class="exp-position sm-grey">${wex.position}</div>
       <p class="exp-info">${wex.info}</p>
     </div>
   </div>

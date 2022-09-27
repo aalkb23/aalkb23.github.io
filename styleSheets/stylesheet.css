@@ -56,6 +56,8 @@ body{
 }
 
 
+
+
 @media screen and (min-width: 900px) {
     #title{
         color: white;
@@ -148,6 +150,10 @@ body{
 
     .social-container{
         padding: 0.2em;
+    }
+
+    .sm-grey{
+        color: #e63946;
     }
     /* .about-page{
         background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/images/clouds.avif);
