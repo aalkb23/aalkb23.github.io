@@ -95,6 +95,9 @@ body{
 /* small screen */
 
 @media screen and (max-width: 900px) {
+    .sm-hide{
+        display: none;
+    }
     .exp-date{
         display: none;
     }
@@ -126,6 +129,14 @@ body{
     .pagedivider{
         width: 100%;
         color: royalblue;
+    }
+
+    .exp-contain, .exp-contain-wex{
+        margin: 0;
+    }
+
+    .sub-subhead{
+        margin-left: 3%;
     }
 
     /* .about-page{
