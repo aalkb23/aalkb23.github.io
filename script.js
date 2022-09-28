@@ -10,25 +10,25 @@ const workExps = [
         title: 'Wiser Academy',
         position: 'Brand Ambassador',
         date: 'Aug 2022 - Present',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
+        info: "As 1 of the 200 students in the Wiser Academy, I play an integral part in helping some of the world's biggest brands attract the best soon-to-be graduates (these include L’Oréal, PA Consulting, Evercore, Frasers Group, Softcat... just to name afew!)."
     },
     {
         title: 'Wiser',
         position: 'Research Intern',
         date: "Aug 2022",
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
+        info: "Myself and two other interns were tasked to construct a research project to find out more about people's views on apprenticeships in order to help the 'Wiser Futures' branch of the company, facilitating future apprenticeship marketing and recruitment. I created a survey and conducted a range of interviews, which were then formulated into a slide deck and presented back to the Wiser Futures team."
     },
     {
         title: 'Permira',
         position: 'Private Equity Intern',
         date: 'Jul 2022',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
+        info: 'Was able to discover the worlds of Private Equity and Private Credit in the Technology, Healthcare, Consumer and Services sectors. Also gained an insight into ESG and Compliance. Was able to discover the worlds of Private Equity and Private Credit in the Technology, Healthcare, Consumer and Services sectors. Also gained an insight into ESG and Compliance. '
     },
     {
         title: 'IKEA',
         position: 'Sales Assistant',
         date: '2020 - 2022',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem.'
+        info: 'Here my responsibilities include stock management and replenishment as well as dealing with customer queries. I was made a shift manager which meant that I managed the entire department as well as my team.'
     }
 ]
 
