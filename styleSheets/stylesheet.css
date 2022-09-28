@@ -4,11 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
+    overflow-x: hidden;
     /* font-family: 'Nunito', sans-serif; */
-}
-
-.dropdown{
-    position: fixed;
 }
 
 
@@ -16,6 +13,43 @@
 body{
     background-color: black;
 }
+
+/* nav */
+
+.navbar{
+    padding: 0;
+    position: fixed;
+    top: 24%;
+    background-color: rgba(141, 153, 174,0.537);
+}
+
+.navbar ul{
+    padding: 0;
+}
+
+.nav-item{
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-item:hover{
+    padding-left: 20px;
+}
+
+.nav-item a:hover> .nav-logo{
+    color: #ffbf69;
+}
+
+
+
+
+.nav-item a{
+    text-decoration: none;
+    color: #ffbf69;
+}
+
+/* --- */
+
 
 .page{
     width: 100vw;
