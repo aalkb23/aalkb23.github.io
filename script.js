@@ -10,19 +10,19 @@ const workExps = [
         title: 'Wiser Academy',
         position: 'Brand Ambassador',
         date: 'Aug 2022 - Present',
-        info: "As 1 of the 200 students in the Wiser Academy, I play an integral part in helping some of the world's biggest brands attract the best soon-to-be graduates (these include L’Oréal, PA Consulting, Evercore, Frasers Group, Softcat... just to name afew!)."
+        info: "As 1 of the 200 students in the Wiser Academy, I play an integral part in helping some of the world's biggest brands attract the best soon-to-be graduates (these include L’Oréal, PA Consulting, Evercore, Frasers Group, Softcat... just to name a few!)."
     },
     {
         title: 'Wiser',
         position: 'Research Intern',
         date: "Aug 2022",
-        info: "Myself and two other interns were tasked to construct a research project to find out more about people's views on apprenticeships in order to help the 'Wiser Futures' branch of the company, facilitating future apprenticeship marketing and recruitment. I created a survey and conducted a range of interviews, which were then formulated into a slide deck and presented back to the Wiser Futures team."
+        info: "Myself and two other interns were tasked to construct a research project to find out more about people's views on apprenticeships in order to help the 'Wiser Futures' branch of the company, facilitating future apprenticeship marketing and recruitment."
     },
     {
         title: 'Permira',
         position: 'Private Equity Intern',
         date: 'Jul 2022',
-        info: 'Was able to discover the worlds of Private Equity and Private Credit in the Technology, Healthcare, Consumer and Services sectors. Also gained an insight into ESG and Compliance. Was able to discover the worlds of Private Equity and Private Credit in the Technology, Healthcare, Consumer and Services sectors. Also gained an insight into ESG and Compliance. '
+        info: 'Was able to discover the worlds of Private Equity and Private Credit in the Technology, Healthcare, Consumer and Services sectors. Also gained an insight into ESG and Compliance.  '
     },
     {
         title: 'IKEA',
@@ -35,21 +35,21 @@ const workExps = [
 const educations = [
   {
       title: "University of Cambridge",
-      position: "Undergrad - Land Economy BSc",
+      position: "Undergrad - Land Economy BA",
       date: '2022 - 2025',
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem."
+      info: "Land Economy encompasses law and economics, with aspects of the environment, business finance and resource management. I hold particular interests in the Economics and Real Estate aspects of the course."
   },
   {
       title: "St Bonaventure's Sixth Form",
       position: 'A Level',
       date: '2020 - 2022',
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem."
+      info: "Here I studied A Levels Economics, Maths and Politics in which I achieved an A*AA (respectively). It was here where my interests in development economics and politics grew immensly."
   },
   {
       title: "St Bonaventure's Secondary School",
       position: 'GCSE',
       date: '2015 - 2020',
-      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos consequatur autem ipsam reiciendis. Ratione, vel fugit doloribus commodi corrupti, labore eum numquam aut fuga perspiciatis in. Ratione, repudiandae voluptatem."
+      info: "I obtained 8 GCSE's from Grades 9-7 including a Grade 9 in English Language and a 7 in Maths. I was also appointed as a Senior Prefect where my responsibilites entailed mentoring younger students."
   }
 ]
 
