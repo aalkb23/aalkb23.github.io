@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
-    overflow-x: hidden;
+    
     /* font-family: 'Nunito', sans-serif; */
 }
 
@@ -12,6 +12,7 @@
 
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 
 /* nav */

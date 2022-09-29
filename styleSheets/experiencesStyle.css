@@ -1,4 +1,7 @@
 /* -------------- experiences page -------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
 .exp-page{
     background-image: linear-gradient(rgba(0, 0, 0),rgba(0, 0, 0, 0.527),rgba(0,0,0)) , url(/images/back1.jpg);
     background-size: cover;
@@ -50,7 +53,35 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 20;
+    overflow-y: scroll;
+    font-family: 'Nunito', sans-serif;
+}
+
+.close-overlay{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close-overlay:hover > .bi-x-circle{
+    color: #ffbf69;
+}
+
+.personal-statement{
+    font-size: 0.7em;
+    margin: 5% 20%;
+}
+
+.ps-head{
+    font-weight: 300;
+    margin: 0 20%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ffbf69;
 }
 
 .hide{

@@ -3,6 +3,11 @@
 const eduContainer = document.querySelector('.exp-contain')
 const wexContainer = document.querySelector(".exp-contain-wex")
 const skillContainer = document.querySelector(".rating-contain")
+const statementBtn = document.querySelector(".ps-btn")
+const overlay = document.querySelector("#overlay")
+const body = document.querySelector("body")
+const closeBtn = document.querySelector(".bi-x-circle")
+
 //
 
 const workExps = [
@@ -137,3 +142,15 @@ function skillsComponent(rating) {
 experienceComponent(educations, workExps)
 skillsComponent(ratings)
 
+//show overlay
+statementBtn.addEventListener("click", function () {
+  overlay.classList.toggle("hide")
+  body.style.overflowY = "hidden"
+  // overlay.style.overlay = ""
+})
+
+//close overlay
+closeBtn.addEventListener("click", function () {
+  overlay.classList.toggle("hide")
+  body.style.overflowY = ""
+})
